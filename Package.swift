@@ -4,7 +4,6 @@
 import PackageDescription
 
 let version = "4.8.1"
-let checksum = ""
 
 let package = Package(
     name: "OpenCV",
@@ -18,7 +17,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "opencv2",
-                      url: "https://github.com/GoodNotes/opencv_mobi/releases/download/\(version)/opencv2.xcframework.zip",
-                      checksum: checksum)
+                      url: "https://github.com/GoodNotes/opencv_mobi/releases/download/\(version)/opencv2.xcframework.zip",)
     ]
 )
