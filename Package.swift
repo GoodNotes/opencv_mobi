@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "4.8.2"
+let version = "4.8.3"
 
 let package = Package(
     name: "OpenCV",
@@ -17,6 +17,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "opencv2",
-                      url: "https://github.com/GoodNotes/opencv_mobi/releases/download/\(version)/opencv2.xcframework.zip",)
+                      url: "https://github.com/GoodNotes/opencv_mobi/releases/tag/4.8.3#:~:text=opencv2.xcframework.zip")
     ]
 )
